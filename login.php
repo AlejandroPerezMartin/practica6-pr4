@@ -51,7 +51,7 @@ echo <<<_HTML
 <h1>Log in</h1>
 
 <form method="POST" action="login.php">$error
-    <input type="text" name="user" maxlength="16" value="$user" placeholder="User name" size="30" required>
+    <input type="text" name="user" maxlength="16" value="$user" placeholder="User name" size="30" autofocus required>
     <br>
     <input type="password" name="password" maxlength="16" value="$password" placeholder="Password" size="30" required>
     <br>
